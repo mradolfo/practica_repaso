@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+body{
+    margin: 0;
+}
+section{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+#aretha {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 25%;
+}
+#diana{
+    position: fixed;
+    top: 0;
+    left: 25%;
+    height: 100%;
+    width: 25%;
+}
+#dionnne {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    height: 100%;
+    width: 25%;
+}
+#etta {
+    position: fixed;
+    top: 0;
+    left: 75%;
+    height: 100%;
+    width: 25%;
+}
