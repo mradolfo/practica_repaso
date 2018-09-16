@@ -3,7 +3,18 @@
 body{
     margin: 0;
 }
-section{
+h1 {
+    font-size: 150px;
+    color: white;
+    text-shadow: black 0 0 50px;
+    font-family: Lobster,sans-serif;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    margin: 0;
+    text-align: center;
+}
+section div{
     position: fixed;
     top: 0;
     left: 0;
@@ -11,28 +22,36 @@ section{
     width: 100%;
 }
 #aretha {
-    position: fixed;
+    background-image: url("practica01/img/aretha.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
     top: 0;
     left: 0;
     height: 100%;
     width: 25%;
 }
 #diana{
-    position: fixed;
+    background-image: url("practica01/img/diana.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
     top: 0;
     left: 25%;
     height: 100%;
     width: 25%;
 }
 #dionnne {
-    position: fixed;
+    background-image: url("practica01/img/dionne.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
     top: 0;
     left: 50%;
     height: 100%;
     width: 25%;
 }
 #etta {
-    position: fixed;
+    background-image: url("practica01/img/etta.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
     top: 0;
     left: 75%;
     height: 100%;
