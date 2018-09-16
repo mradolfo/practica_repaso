@@ -29,6 +29,15 @@ section div{
     height: 100%;
     width: 25%;
 }
+#c1{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 25%;
+    height: 100%;
+    background-color: rgba(255,0,255,0.30);
+    z-index: 10;
+}
 #diana{
     background-image: url("practica01/img/diana.jpg");
     background-position: center;
@@ -38,6 +47,15 @@ section div{
     left: 25%;
     height: 100%;
     width: 25%;
+}
+#c2 {
+    position: fixed;
+    left: 25%;
+    top: 0;
+    width: 25%;
+    height: 100%;
+    background-color: rgba(0,0,255,0.30);
+    z-index: 10;
 }
 #dionnne {
     background-image: url("practica01/img/dionne.jpg");
@@ -49,6 +67,15 @@ section div{
     height: 100%;
     width: 25%;
 }
+#c3{
+    position: fixed;
+    left: 50%;
+    top: 0;
+    width: 25%;
+    height: 100%;
+    background-color: rgba(255,0,153,0.30);
+    z-index: 10;
+}
 #etta {
     background-image: url("practica01/img/etta.jpg");
     background-position: center;
@@ -58,4 +85,13 @@ section div{
     left: 75%;
     height: 100%;
     width: 25%;
+}
+#c4{
+    position: fixed;
+    left: 75%;
+    top: 0;
+    width: 25%;
+    height: 100%;
+    background-color: rgba(0,153,255,0.30);
+    z-index: 10;
 }
